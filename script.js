@@ -309,7 +309,7 @@ function showAlert() {
         },
         {
             Japan: 'これは、そのルールが適用されない状況だ。',
-            America: 'This is a situation where the rule dose not apply.',
+            America: 'This is a situation where the rule does not apply.',
             check: 0
         },
         {
