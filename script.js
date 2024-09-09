@@ -178,7 +178,7 @@ function showAlert() {
             check: 0
         },
         // {
-        //     Japan: '昨日その手紙を投函を投函したことを覚えている。',
+        //     Japan: '昨日その手紙を投函したことを覚えている。',
         //     America: 'I remember mailing the letter yesterday.',
         //     check: 0
         // },
