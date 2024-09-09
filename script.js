@@ -7,46 +7,46 @@ let QuestionList = []
 
 function showAlert() {
     wordList.push(
-        {
-            Japan: '正直でいることが大切だ。',
-            America: 'It is important to be honest.',
-            check: 0
-        },
-        {
-            Japan: '君たちがやさしい英語の本を読むのはいいことだ。',
-            America: 'It is good for you to read an easy English book.',
-            check: 0
-        },
-        {
-            Japan: '私に助言してくれるとは本当に親切でした。',
-            America: 'It was very kind of you to give me some advice.',
-            check: 0
-        },
-        {
-            Japan: '母が夕飯を作るのには1時間くらいかかる。',
-            America: 'It takes my mother about an hour to make dinner.',
-            check: 0
-        },
-        {
-            Japan: '私がその小包を送るのに1,000円かかった。',
-            America: 'It cost me 1,000 yen to send the package.',
-            check: 0
-        },
-        {
-            Japan: 'ジェームズ先生がぼくらの野球部の監督になるのは確かだ。',
-            America: 'It is certain that Mr.James will become the manager of our baseball club.',
-            check: 0
-        },
-        {
-            Japan: 'メアリーはダンスのオーディションに合格したようだ。',
-            America: 'It seems that Mary passed the dance audition.',
-            check: 0
-        },
-        {
-            Japan: 'リサはニューヨークで美術を学ぶことにしていると言われている。',
-            America: 'It is said that Lisa is going to study fine arts in New York.',
-            check: 0
-        },
+        // {
+        //     Japan: '正直でいることが大切だ。',
+        //     America: 'It is important to be honest.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '君たちがやさしい英語の本を読むのはいいことだ。',
+        //     America: 'It is good for you to read an easy English book.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '私に助言してくれるとは本当に親切でした。',
+        //     America: 'It was very kind of you to give me some advice.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '母が夕飯を作るのには1時間くらいかかる。',
+        //     America: 'It takes my mother about an hour to make dinner.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '私がその小包を送るのに1,000円かかった。',
+        //     America: 'It cost me 1,000 yen to send the package.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'ジェームズ先生がぼくらの野球部の監督になるのは確かだ。',
+        //     America: 'It is certain that Mr.James will become the manager of our baseball club.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'メアリーはダンスのオーディションに合格したようだ。',
+        //     America: 'It seems that Mary passed the dance audition.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'リサはニューヨークで美術を学ぶことにしていると言われている。',
+        //     America: 'It is said that Lisa is going to study fine arts in New York.',
+        //     check: 0
+        // },
         {
             Japan: 'ジミーがぼくのことを何と言おうと問題ではない。',
             America: 'It doesn\'t matter what Jimmy says about me.',
@@ -127,11 +127,11 @@ function showAlert() {
             America: 'He seems to have talked with our teacher.',
             check: 0
         },
-        {
-            Japan: 'お母さんが私に部屋を掃除するように言った。',
-            America: 'My mother told me to clean my room.',
-            check: 0
-        },
+        // {
+        //     Japan: 'お母さんが私に部屋を掃除するように言った。',
+        //     America: 'My mother told me to clean my room.',
+        //     check: 0
+        // },
         {
             Japan: '父に駅まで車に乗せてくれるように頼んだ。',
             America: 'I asked my father to drive me to the station.',
@@ -152,36 +152,36 @@ function showAlert() {
             America: 'Peter\'s father had his son mow the lawn in the garden.',
             check: 0
         },
-        {
-            Japan: '私はミラーさんがそのビルに入るのを見た。',
-            America: 'I saw Mr.Miller enter the building.',
-            check: 0
-        },
-        {
-            Japan: '私は姉が子守唄を歌うのを聞いた。',
-            America: 'I heard my sister sing a lullaby.',
-            check: 0
-        },
-        {
-            Japan: 'ジュディーは早起きすることに慣れている。',
-            America: 'Judy is used to getting up early.',
-            check: 0
-        },
-        {
-            Japan: 'またお目にかかることを楽しみにしています。',
-            America: 'I\'m looking forward to seeing you again.',
-            check: 0
-        },
+        // {
+        //     Japan: '私はミラーさんがそのビルに入るのを見た。',
+        //     America: 'I saw Mr.Miller enter the building.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '私は姉が子守唄を歌うのを聞いた。',
+        //     America: 'I heard my sister sing a lullaby.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'ジュディーは早起きすることに慣れている。',
+        //     America: 'Judy is used to getting up early.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'またお目にかかることを楽しみにしています。',
+        //     America: 'I\'m looking forward to seeing you again.',
+        //     check: 0
+        // },
         {
             Japan: 'その古い寺院は訪れる価値がある。',
             America: 'The old temples are worth visiting.',
             check: 0
         },
-        {
-            Japan: '昨日その手紙を投函を投函したことを覚えている。',
-            America: 'I remember mailing the letter yesterday.',
-            check: 0
-        },
+        // {
+        //     Japan: '昨日その手紙を投函を投函したことを覚えている。',
+        //     America: 'I remember mailing the letter yesterday.',
+        //     check: 0
+        // },
         {
             Japan: '駅で友人を見かけるとすぐに、彼に手を振った。',
             America: 'On seeing my friend at the station, I waved at him.',
@@ -237,11 +237,11 @@ function showAlert() {
             America: 'He had his house broken into last night.',
             check: 0
         },
-        {
-            Japan: '微笑みながら、ジェニファーはイタリアンレストランに入った。',
-            America: 'Smiling, Jennifer entered the Italian restaurant.',
-            check: 0
-        },
+        // {
+        //     Japan: '微笑みながら、ジェニファーはイタリアンレストランに入った。',
+        //     America: 'Smiling, Jennifer entered the Italian restaurant.',
+        //     check: 0
+        // },
         {
             Japan: '突然話しかけられたので、ジョセフはとても驚いた。',
             America: 'Spoken to suddenly, Joseph was very surprised.',
@@ -347,21 +347,21 @@ function showAlert() {
             America: 'Try whatever you like.',
             check: 0
         },
-        {
-            Japan: '何が起ころうともあなたを手助けします。',
-            America: 'Whatever happens, I will help you.',
-            check: 0
-        },
+        // {
+        //     Japan: '何が起ころうともあなたを手助けします。',
+        //     America: 'Whatever happens, I will help you.',
+        //     check: 0
+        // },
         {
             Japan: 'すべての子どもが果物や甘い物が好きだというわけではない。',
             America: 'Not all children like fruits and sweets.',
             check: 0
         },
-        {
-            Japan: '彼は誰に対してもいつも公平というわけではない。',
-            America: 'He is not always fair to everybody.',
-            check: 0
-        },
+        // {
+        //     Japan: '彼は誰に対してもいつも公平というわけではない。',
+        //     America: 'He is not always fair to everybody.',
+        //     check: 0
+        // },
         {
             Japan: '彼のテスト結果はまったく満足のいくものではなかった。',
             America: 'His test result was far from satisfactory.',
@@ -372,16 +372,16 @@ function showAlert() {
             America: 'They never meet without talking about other people.',
             check: 0
         },
-        {
-            Japan: '彼は冗談を最も言いそうにない人だ。',
-            America: 'He is the last person to tell a joke.',
-            check: 0
-        },
-        {
-            Japan: '私はむしろ出かけたい。',
-            America: 'I would rather go out.',
-            check: 0
-        },
+        // {
+        //     Japan: '彼は冗談を最も言いそうにない人だ。',
+        //     America: 'He is the last person to tell a joke.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '私はむしろ出かけたい。',
+        //     America: 'I would rather go out.',
+        //     check: 0
+        // },
         {
             Japan: '眠っている赤ん坊を起こさないほうがいい。',
             America: 'You had better not wake up the sleeping baby.',
@@ -432,16 +432,16 @@ function showAlert() {
             America: 'As long as it is sunny tomorrow, I will do the laundry.',
             check: 0
         },
-        {
-            Japan: '明日雨が降らないかぎり、私は洗濯をします。',
-            America: 'Unless it rains tomorrow, I will do the laundry.',
-            check: 0
-        },
-        {
-            Japan: 'もしも僕が君の立場ならすぐに諦めるだろう。',
-            America: 'If I were in your place, I would give up soon.',
-            check: 0
-        },
+        // {
+        //     Japan: '明日雨が降らないかぎり、私は洗濯をします。',
+        //     America: 'Unless it rains tomorrow, I will do the laundry.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: 'もしも僕が君の立場ならすぐに諦めるだろう。',
+        //     America: 'If I were in your place, I would give up soon.',
+        //     check: 0
+        // },
         {
             Japan: 'もしもそのコンサートに行っていなかったら、僕たちはお互いに出会わなかっただろう。',
             America: 'If I had not gone to the concert, we would not have met each other.',
@@ -452,11 +452,11 @@ function showAlert() {
             America: 'If you should see Edward, please say hello for me.',
             check: 0
         },
-        {
-            Japan: 'もしも私が億万長者になったら、私は世界一周の旅に出かけるだろう。',
-            America: 'If I were to become a millionaire, I would go on a trip around the world.',
-            check: 0
-        },
+        // {
+        //     Japan: 'もしも私が億万長者になったら、私は世界一周の旅に出かけるだろう。',
+        //     America: 'If I were to become a millionaire, I would go on a trip around the world.',
+        //     check: 0
+        // },
         {
             Japan: 'もしも水がなかったら、どんな生物も地球上で生きていけないだろう。',
             America: 'If it were not for water, no living things could live on the earth.',
@@ -517,21 +517,21 @@ function showAlert() {
             America: 'The mistake I made was not a spelling error but a grammatical one.',
             check: 0
         },
-        {
-            Japan: '彼は小説家であるだけでなくピアニストでもある。',
-            America: 'He is not only a novelist but also a pianist.',
-            check: 0
-        },
+        // {
+        //     Japan: '彼は小説家であるだけでなくピアニストでもある。',
+        //     America: 'He is not only a novelist but also a pianist.',
+        //     check: 0
+        // },
         {
             Japan: 'メアリーはとても疲れていたので、いつも通りに6時に起きられなかった。',
             America: 'Mary was so tired that she could not get up at six as usual.',
             check: 0
         },
-        {
-            Japan: '彼女はとても上手な歌手なので、彼女のコンサートはいつも満員である。',
-            America: 'She is such a good singer that her concerts are always full.',
-            check: 0
-        },
+        // {
+        //     Japan: '彼女はとても上手な歌手なので、彼女のコンサートはいつも満員である。',
+        //     America: 'She is such a good singer that her concerts are always full.',
+        //     check: 0
+        // },
         {
             Japan: '一番列車に乗れるようにいつもより早く起きた。',
             America: 'I got up earlier than usual so that I could take the first train.',
@@ -572,16 +572,16 @@ function showAlert() {
             America: 'Take an umbrella with you just in case it rains.',
             check: 0
         },
-        {
-            Japan: '彼が学校に来たらすぐにそのプロジェクトのことを尋ねてみよう。',
-            America: 'I\'ll ask him about the project as soon as he comes to school.',
-            check: 0
-        },
-        {
-            Japan: '劇が始まるとすぐにハンプトン夫妻が到着した。',
-            America: 'The play had hardly started when Mr. and Mrs. Hampton arrived.',
-            check: 0
-        },
+        // {
+        //     Japan: '彼が学校に来たらすぐにそのプロジェクトのことを尋ねてみよう。',
+        //     America: 'I\'ll ask him about the project as soon as he comes to school.',
+        //     check: 0
+        // },
+        // {
+        //     Japan: '劇が始まるとすぐにハンプトン夫妻が到着した。',
+        //     America: 'The play had hardly started when Mr. and Mrs. Hampton arrived.',
+        //     check: 0
+        // },
         {
             Japan: 'まもなく祖父は健康を取り戻すだろう。',
             America: 'It will not be long before my grandfather gets back his health.',
@@ -627,11 +627,11 @@ function showAlert() {
             America: 'He is less friendly than his brother Michael.',
             check: 0
         },
-        {
-            Japan: 'できるだけ早くこのメールに返信してください。',
-            America: 'Please reply to this email as soon as possible.',
-            check: 0
-        },
+        // {
+        //     Japan: 'できるだけ早くこのメールに返信してください。',
+        //     America: 'Please reply to this email as soon as possible.',
+        //     check: 0
+        // },
         {
             Japan: '彼は弁護士というよりも政治家だ。',
             America: 'He is not so much a lawyer as a politician.',
@@ -642,21 +642,21 @@ function showAlert() {
             America: 'April has begun and it is getting warmer and warmer.',
             check: 0
         },
-        {
-            Japan: '一生懸命勉強すればするほど、私は賢くなる。',
-            America: 'The harder I study, the cleverer I become.',
-            check: 0
-        },
+        // {
+        //     Japan: '一生懸命勉強すればするほど、私は賢くなる。',
+        //     America: 'The harder I study, the cleverer I become.',
+        //     check: 0
+        // },
         {
             Japan: 'カーツ教授は世界で最も有名な科学者の1人だ。',
             America: 'Prof.Kurtz is one of the most famous scientists in the world.',
             check: 0
         },
-        {
-            Japan: 'ジャスティンは私の5倍のDVDを持っている。',
-            America: 'Justin has five times as many DVDs as I have.',
-            check: 0
-        }
+        // {
+        //     Japan: 'ジャスティンは私の5倍のDVDを持っている。',
+        //     America: 'Justin has five times as many DVDs as I have.',
+        //     check: 0
+        // }
     )
     shuffledArray = wordList;
     // document.getElementById('japanese').value = '';
