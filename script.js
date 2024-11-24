@@ -810,7 +810,7 @@ function practiceNote() {
         }
 
 
-        for (let i = 0; i < wordList.length; i++) {
+        for (let i = 0; i < missList.length; i++) {
             createDiv(i)
         }
     }
